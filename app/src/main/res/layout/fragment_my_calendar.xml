@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/bg"
+    android:background="@drawable/background"
     tools:context=".Fragment.myCalendarFragment"
     android:orientation="vertical"
     android:padding="20dp">
@@ -35,12 +35,15 @@
         android:id="@+id/suasanaHati"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/pink"
-        android:drawableLeft="@drawable/ic_smile"
-        android:text="Suasana Hati"
+        android:background="@drawable/buttonbg"
+        android:drawableStart="@drawable/ic_smile"
+        android:paddingHorizontal="20dp"
+        android:text="   Suasana Hati"
+        android:textAllCaps="false"
+        android:gravity="start|center_vertical"
         android:fontFamily="@font/poppinssemibold"
         android:textColor="@android:color/black"
-        android:textSize="18dp"
+        android:textSize="16dp"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"/>
 
@@ -48,13 +51,15 @@
         android:id="@+id/berat_badan"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginBottom="120dp"
-        android:background="@color/pink"
+        android:background="@drawable/buttonbg"
         android:drawableLeft="@drawable/ic_timbangan"
-        android:text="Berat Badan"
+        android:paddingHorizontal="20dp"
+        android:text="   Berat Badan"
+        android:textAllCaps="false"
+        android:gravity="start|center_vertical"
         android:fontFamily="@font/poppinssemibold"
         android:textColor="@android:color/black"
-        android:textSize="18dp"
+        android:textSize="16dp"
         android:textStyle="bold" />
 
 </LinearLayout>

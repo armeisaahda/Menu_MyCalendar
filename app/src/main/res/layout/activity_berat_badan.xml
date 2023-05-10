@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:hint="Tuliskan Berat Badan Anda Disini"
+        android:inputType="number"
         android:fontFamily="@font/poppinsregular"
         android:textSize="16dp"
         android:layout_marginBottom="500dp">
@@ -47,6 +48,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="@color/pink"/>
 
 </LinearLayout>
